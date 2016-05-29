@@ -18,7 +18,7 @@ A gene defines a small part of molecular "functionality": it's an expression of 
 
 This is also true of functions in software systems! They're literally just a set of instructions that tell us how to do something. That concept seems a little functional in nature -- borrowing the notion that a function does a specific, well-defined job and is stateless -- but Gencode does this with classes, and adds the states inherant in object oriented systems. 
 
-Particularly, gencode 
+Particularly, gencode will take a list of methods as the 'genes' of the class. That way, we can save collections of genes and create new or different classes based on the 'genetic' encoding of the class. 
 
 ---
 
