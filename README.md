@@ -30,11 +30,13 @@ Note that those methods WILL be class methods, so they'll want to start with `se
 
 Here's a minimum working example: 
 
-> >>> import gencode
-> >>> def m(self, n):
-> ...   print n
-> ...
-> >>> gencode.gencode(globals(), 'C', m)
-> >>> test_var = C()
-> >>> test_var.m(5)
-> 5
+```python 
+  >>> import gencode 
+  >>> def m(self, n):
+  ...   print n
+  ...
+  >>> gencode.gencode(globals(), 'C', m)
+  >>> test_var = C()
+  >>> test_var.m(5)
+  5
+```
